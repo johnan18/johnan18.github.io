@@ -5,6 +5,8 @@ height:100px;
 width:100%;
 }
 
+nav h3{display:inline;}
+nav a{display:inline;}
 section #left{
 width:50%;
 float:left;
