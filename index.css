@@ -8,17 +8,14 @@ width:100%;
 nav h3{display:inline;}
 nav a{display:inline;}
 section{
+  float;
 width:50%;
 float:left;
 background-color:lightblue;
 }
 
-#left{
-float:left;
-background-color:lightblue;
-}
-
 aside{
+float;
 width:50%;
 float:right;
 background-color:lightred;
