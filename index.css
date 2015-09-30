@@ -8,17 +8,17 @@ width:100%;
 nav h3{display:inline;}
 nav a{display:inline;}
 section{
-  float;
+top:100px;
 width:50%;
 float:left;
 background-color:lightblue;
 }
 
 aside{
-float;
+top:100px;
 width:50%;
 float:right;
-background-color:lightred;
+background-color:red;
 }
 
 footer{
