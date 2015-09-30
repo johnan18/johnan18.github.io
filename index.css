@@ -2,7 +2,7 @@ nav{
 position:fixed;
 top: 0px;
 
-background-color:lightgreen;
+background-color:rgb(90,237,183;
 height:100px;
 width:100%;
 }
@@ -24,12 +24,12 @@ aside{
 margin-top:100px;
 width:50%;
 float:right;
-background-color:red;
+background-color:rgb(94,63,171);
 }
 
 footer{
 height:150px;
 width:100%;
 clear:both;
-background-color:orange;
+background-color:grey;
 }
