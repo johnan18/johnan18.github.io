@@ -1,0 +1,16 @@
+.high {
+   background-color: red;
+   
+}
+.medium {
+   background-color: orange;
+}
+.low {
+   background-color: gray;
+}
+.done {
+   text-decoration: line-through;
+}
+.main{
+  background-color:blue;
+  height:500px;
