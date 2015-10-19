@@ -1,4 +1,4 @@
-changeThisPageFunc=function();{
+changeThisPageFunc=function(){
   var input;
   var ch;
   input=document.getElementById("todo").value;
