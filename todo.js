@@ -14,9 +14,7 @@ changeThisPageFunc=function(){
   
   myUl.appendChild(myLi);
   myLi.appendChild(myLitext);
-  
-  myInput = document.createElement(“INPUT”);
-  myInput.type = “checkbox”;
+  myLi.appendChile(myInput);
   
   
 }
