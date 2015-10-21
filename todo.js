@@ -17,15 +17,5 @@ changeThisPageFunc=function(){
   myLi.appendChile(myInput);
   
   
-}
 
-
-doneTask=function(){
-   if ( this.checked ) {
-   this.parentNode.classList.add("done");
-   } else{
-       this.parentNode.classList.remove("done");
-   }
-
-}
 
