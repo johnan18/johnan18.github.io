@@ -1,14 +1,25 @@
 changeThisPageFunc=function(){
-  var input;
   
-  input=document.getElementById("todo").value;
-  var list1 = document.createElement("li");
-  var ul = document.createElement("ul");
-  list1text = document.createTextNode(input);
+  var input=document.getElementById("todo").value;
+  var myUl = document.querySelector(“#tasklist”)
+  var myLitext = document.createTextNode(input);
   
-  document.section.appendChild(ul);
-  ul.appendChild(list1);
-  list1.appendChild(list1text);
+  var myPriority = document.querySelector(“#priority”);
+  var myLi = document.createElement("li");
   
+  myLi.classList.add(myPriority.value);
+  myUl.appendChild(myLi);
+  myLi.appendChild(myLitext);
+  
+}
+
+
+doneTask=function(){
+   if ( this.checked ) {
+   this.parentNode.classList.add("done");
+   } else{
+       this.parentNode.classList.remove("done");
+   }
+
 }
 
