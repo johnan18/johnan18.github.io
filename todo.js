@@ -6,16 +6,17 @@ changeThisPageFunc=function(){
   
   var myPriority = document.querySelector(“#priority”);
   var myLi = document.createElement("li");
+  myLi.classList.add(myPriority.value);
   
   var myInput = document.createElement(“INPUT”);
   myInput.type = “checkbox”;
   
-  myLi.classList.add(myPriority.value);
+  
   myUl.appendChild(myLi);
   myLi.appendChild(myLitext);
   
   myInput = document.createElement(“INPUT”);
-  myInput.type = “checkbox”
+  myInput.type = “checkbox”;
   
   
 }
