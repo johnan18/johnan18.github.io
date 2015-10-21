@@ -15,7 +15,8 @@ changeThisPageFunc=function(){
   myLi.appendChild(myLitext);
   
   myInput = document.createElement(“INPUT”);
-  myInput.type = “checkbox”;
+  myInput.type = “checkbox”
+  
   
 }
 
