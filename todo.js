@@ -14,7 +14,7 @@ changeThisPageFunc=function(){
   
   myUl.appendChild(myLi);
   myLi.appendChild(myLitext);
-  myLi.appendChile(myInput);
+  myLi.appendChild(myInput);
 }
   
 
