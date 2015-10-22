@@ -8,8 +8,8 @@ changeThisPageFunc=function(){
   var myLi = document.createElement("li");
   myLi.classList.add(myPriority.value);
   
-  var myInput = document.createElement(“INPUT”);
-  myInput.type = “checkbox”;
+  var myInput = document.createElement("INPUT");
+  myInput.type = "checkbox";
   
   
   myUl.appendChild(myLi);
