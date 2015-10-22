@@ -4,7 +4,7 @@ changeThisPageFunc=function(){
   var myUl = document.querySelector("#tasklist");
   var myLitext = document.createTextNode(input);
   
-  var myPriority = document.querySelector(“#priority”);
+  var myPriority = document.querySelector("#priority");
   var myLi = document.createElement("li");
   myLi.classList.add(myPriority.value);
   
