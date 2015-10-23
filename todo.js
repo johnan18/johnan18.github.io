@@ -17,6 +17,8 @@ changeThisPageFunc=function(){
   myLi.appendChild(myLitext);
   myLi.appendChild(myInput);
   
+  localSave('tasklist')
+  
 }
 
 doneTask=function(){
