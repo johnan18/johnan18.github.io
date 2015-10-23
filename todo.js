@@ -24,7 +24,7 @@ doneTask=function(){
        this.parentNode.classList.remove("done");
    }
 
-}0
+}
   
 
 
