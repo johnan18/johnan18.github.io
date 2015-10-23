@@ -16,6 +16,15 @@ changeThisPageFunc=function(){
   myLi.appendChild(myLitext);
   myLi.appendChild(myInput);
 }
+
+doneTask=function(){
+   if ( this.checked ) {
+   this.parentNode.classList.add("done");
+   } else{
+       this.parentNode.classList.remove("done");
+   }
+
+}0
   
 
 
