@@ -10,6 +10,7 @@ changeThisPageFunc=function(){
   
   var myInput = document.createElement("INPUT");
   myInput.type = "checkbox";
+  myInput.onclick=doneTask;
   
   
   myUl.appendChild(myLi);
@@ -24,7 +25,7 @@ doneTask=function(){
    } else{
        this.parentNode.classList.remove("done");
    }
-
+   localSave('tasklist')
 }
   
 
