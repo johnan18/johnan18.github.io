@@ -15,7 +15,7 @@ changeThisPageFunc=function(){
   myUl.appendChild(myLi);
   myLi.appendChild(myLitext);
   myLi.appendChild(myInput);
-  doneTask();
+  
 }
 
 doneTask=function(){
