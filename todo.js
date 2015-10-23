@@ -10,7 +10,7 @@ changeThisPageFunc=function(){
   
   var myInput = document.createElement("INPUT");
   myInput.type = "checkbox";
-  
+  myInput.doneTask();
   
   myUl.appendChild(myLi);
   myLi.appendChild(myLitext);
