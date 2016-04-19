@@ -1,0 +1,43 @@
+<html>
+<head>
+</head>
+
+<body>
+<div>
+  <h1>jQuery API</h1>
+  <p> <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script></p>
+</div>
+
+<div>
+  <h1>Show Picture Function</h1>
+  <p>
+  <script type="text/javascript">
+
+  function showpics(){
+
+    var pic= $("#box").val();
+    $.getJSON('http://api.flickr.com/services/feeds/photos_public.gne?tags='
+      +pic+"&tagmode=any&format=json&jsoncallback=?",
+      function(data){ $("#images").hide().html(data).fadeIn('fast');
+
+    $.each(data.items, function(i,item) {
+      $("<img/>").attr("src", item.media.m).appendTo("#images");
+    });
+  })
+};
+  </script>
+</p>
+</div>
+
+<div>
+  <h1>Browser Page Layout</h1>
+  <p>
+    <p>Enter the image you want to enter </p>
+    <input id="box" type="text">
+    <input id="Button" title="show" onclick="showpics()" type="button" value="show">
+    <div id="images"></div>
+  </p>
+</div>
+</body>
+
+</html>
