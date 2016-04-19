@@ -83,22 +83,7 @@
 	<script type="text/javascript" src="http://underscorejs.org/underscore-min.js"></script>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
     <script src="api3.js"></script>
-    <script>
-    	var input=document.getElementById("query").value;
-    	function loadBackground(lat, lon, weatherTag) {
-	  var script_element = document.createElement('script');
-	
-	  script_element.src = "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=3d6e572aa677c001bcb8eabd6cb543b8&tags=" + input + "&sort=relevance&extras=url_l&format=json";
-	
-	  document.getElementByID("pic")[0].appendChild(script_element);
-	}
-    	function jsonFlickrApi(data){
-	  if (data.photos.pages > 0){
-	    var photo = data.photos.photo[0];
-	    document.querySelector("pic").style.backgroundImage = "url('" + photo.url_l + "')";
-	  }
-    	}
-    </script>
+
 	
 </head>
 <body>
