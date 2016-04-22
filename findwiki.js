@@ -51,11 +51,11 @@ url: url + currentTerm,
 type: 'GET',
 dataType: 'jsonp',
 error: function(data){
-console.log("We got problems");
+console.log("shoot");
 console.log(data.status);
 },
 success: function(data){
-console.log("WooHoo!");
+console.log("good!");
 
 console.log(data);
 
